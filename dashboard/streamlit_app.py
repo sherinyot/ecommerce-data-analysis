@@ -22,12 +22,12 @@ and delivery logistics across different regions.
 # Function to load data
 @st.cache_data
 def load_data():
-    customers_df = pd.read_csv("D:\proyek-analisis-data\proyek-analisis-data-main\dashboard\customers_dataset.csv")
-    orders_df = pd.read_csv("D:\proyek-analisis-data\proyek-analisis-data-main\dashboard\orders_dataset.csv")
-    order_reviews_df = pd.read_csv("D:\proyek-analisis-data\proyek-analisis-data-main\dashboard\order_reviews_dataset.csv")
-    sellers_df = pd.read_csv("D:\proyek-analisis-data\proyek-analisis-data-main\dashboard\sellers_dataset.csv")
-    order_items_df = pd.read_csv("D:\proyek-analisis-data\proyek-analisis-data-main\dashboard\order_items_dataset.csv")
-    products_df = pd.read_csv("D:\proyek-analisis-data\proyek-analisis-data-main\dashboard\products_dataset.csv")
+    customers_df = pd.read_csv('customers_dataset.csv')
+    orders_df = pd.read_csv('orders_dataset.csv')
+    order_reviews_df = pd.read_csv('order_reviews_dataset.csv')
+    sellers_df = pd.read_csv('sellers_dataset.csv')
+    order_items_df = pd.read_csv('order_items_dataset.csv')
+    products_df = pd.read_csv('products_dataset.csv')
     
     # Convert date columns
     date_columns = [
