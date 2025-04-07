@@ -22,7 +22,7 @@ and delivery logistics across different regions.
 # Function to load data
 @st.cache_data
 def load_data():
-    cumers_df = pd.read_csv("D:\proyek-analisis-data\proyek-analisis-data-main\dashboard\customers_dataset.csv")
+    customers_df = pd.read_csv("D:\proyek-analisis-data\proyek-analisis-data-main\dashboard\customers_dataset.csv")
     orders_df = pd.read_csv("D:\proyek-analisis-data\proyek-analisis-data-main\dashboard\orders_dataset.csv")
     order_reviews_df = pd.read_csv("D:\proyek-analisis-data\proyek-analisis-data-main\dashboard\order_reviews_dataset.csv")
     sellers_df = pd.read_csv("D:\proyek-analisis-data\proyek-analisis-data-main\dashboard\sellers_dataset.csv")
